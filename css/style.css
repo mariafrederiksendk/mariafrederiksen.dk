@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
 
-/* ===========================
-   CSS Variables (Color Palette)
-   =========================== */
+/* CSS Variables (Color Palette) */
 :root {
   --color-primary-text: #484848;
   --color-body-text: #191b21;
@@ -15,9 +13,7 @@
   --color-year-text: #666;
 }
 
-/* ===========================
-   Global Styles
-   =========================== */
+/* Global Styles */
 * {
   box-sizing: border-box;
 }
@@ -35,9 +31,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ===========================
-   Header / Cover Section
-   =========================== */
+/* Header / Cover Section */
 .cover-background {
   background-image: url("../images/cover.jpg");
   height: 100vh;
@@ -59,9 +53,7 @@ body {
   margin: 0.7rem 0;
 }
 
-/* ===========================
-   Content Blocks
-   =========================== */
+/* Content Blocks */
 .block {
   width: 90%;
   max-width: 1090px;
@@ -78,9 +70,7 @@ body {
   }
 }
 
-/* ===========================
-   Flexbox Layout
-   =========================== */
+/* Flexbox Layout */
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -107,24 +97,18 @@ body {
   max-width: 500px;
 }
 
-/* ===========================
-   Images
-   =========================== */
+/* Images */
 .computer-image {
   width: 100%;
   max-width: 400px;
 }
 
-/* ===========================
-   Contact Section
-   =========================== */
+/* Contact Section */
 .contact-section {
   text-align: center;
 }
 
-/* ===========================
-   Footer
-   =========================== */
+/* Footer */
 footer {
   width: 100%;
   margin-top: 6rem;
@@ -133,9 +117,7 @@ footer {
   text-align: center;
 }
 
-/* ===========================
-   Navigation Bar
-   =========================== */
+/* Navigation Bar */
 nav a {
   padding: 1rem;
   text-decoration: none;
@@ -143,7 +125,9 @@ nav a {
   font-weight: bold;
   border-radius: 12px;
   display: inline-block;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 nav a:hover {
@@ -184,9 +168,7 @@ nav a:hover {
   background-color: #fff;
 }
 
-/* ===========================
-   Typography
-   =========================== */
+/* Typography */
 h1,
 h2,
 h3 {
@@ -216,9 +198,7 @@ p {
   }
 }
 
-/* ===========================
-   Spacing Utilities
-   =========================== */
+/* Spacing Utilities */
 .space--big {
   height: 7rem;
 }
@@ -231,9 +211,7 @@ p {
   height: 1rem;
 }
 
-/* ===========================
-   Portfolio Section
-   =========================== */
+/* Portfolio Section */
 .project-year {
   color: var(--color-year-text);
   font-size: 0.9em;
@@ -248,7 +226,9 @@ p {
   color: var(--color-link-dark);
   text-decoration: none;
   border-radius: 12px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .portfolio-section h3 a:hover {
@@ -273,14 +253,14 @@ p {
   background-color: var(--color-hover-bg);
 }
 
-/* ===========================
-   Contact Section
-   =========================== */
+/* Contact Section */
 .contact-section a {
   color: var(--color-link-brown);
   text-decoration: none;
   border-radius: 12px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .contact-section a:hover {

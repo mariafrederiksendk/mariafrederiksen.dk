@@ -1,6 +1,4 @@
-/* ===========================
-   Skills Section
-   =========================== */
+/* Skills Section */
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
@@ -22,9 +20,7 @@
   text-align: center;
 }
 
-/* ===========================
-   Loading Screen Animation
-   =========================== */
+/* Loading Screen Animation */
 .animation-screen {
   position: fixed;
   top: 0;
@@ -63,11 +59,10 @@
   animation: slideDownUp 2.8s ease-in-out;
 }
 
-/* ===========================
-   Keyframe Animations
-   =========================== */
+/* Keyframe Animations */
 @keyframes slideUpDown {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -76,7 +71,8 @@
 }
 
 @keyframes slideDownUp {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -88,4 +84,41 @@
   to {
     opacity: 0;
   }
+}
+
+/* Slider */
+
+.slide {
+  display: none;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide-content {
+  text-align: center;
+}
+
+.slider-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+.slider-nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.slider-nav button:hover {
+  color: #000;
 }
