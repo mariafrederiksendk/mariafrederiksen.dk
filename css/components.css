@@ -136,6 +136,11 @@
   margin-inline: auto;
 }
 
+/* Links to the project's GitHub repository */
+.repo-link {
+  font-weight: bold;
+}
+
 /* Wide screens */
 @media (min-width: 1111px) {
   .project:nth-child(even) .project-layout {
