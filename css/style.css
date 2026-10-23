@@ -97,6 +97,12 @@ body {
   max-width: 500px;
 }
 
+/* Portfolio fills the whole block so each project has room for two columns */
+.portfolio-section {
+  flex: 1;
+  max-width: 100%;
+}
+
 /* Images */
 .computer-image {
   width: 100%;

@@ -20,22 +20,3 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// Slider function
-document.addEventListener("DOMContentLoaded", () => {
-  const slides = document.querySelectorAll(".slide");
-  const prevButton = document.querySelector(".prev-arrow");
-  const nextButton = document.querySelector(".next-arrow");
-
-  if (slides.length === 0 || !prevButton || !nextButton) return;
-
-  let currentIndex = 0;
-
-  function showSlide(index) {
-    slides[currentIndex].classList.remove("active");
-    currentIndex = (index + slides.length) % slides.length;
-    slides[currentIndex].classList.add("active");
-  }
-
-  nextButton.addEventListener("click", () => showSlide(currentIndex + 1));
-  prevButton.addEventListener("click", () => showSlide(currentIndex - 1));
-});
