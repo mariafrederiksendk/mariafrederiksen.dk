@@ -136,9 +136,52 @@
   margin-inline: auto;
 }
 
-/* Links to the project's GitHub repository */
-.repo-link {
-  font-weight: bold;
+/* Project links (live demo / GitHub) */
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.6rem 1.25rem;
+  border: 2px solid var(--color-link-dark);
+  border-radius: 2rem;
+  color: var(--color-link-dark);
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.project-link:hover,
+.project-link:focus-visible {
+  background-color: var(--color-hover-bg);
+  color: var(--color-link-hover);
+}
+
+.project-link--primary {
+  background-color: var(--color-link-dark);
+  color: #fff;
+}
+
+.project-link--primary:hover,
+.project-link--primary:focus-visible {
+  background-color: var(--color-link-hover);
+  border-color: var(--color-link-hover);
+  color: #fff;
+}
+
+.project-link:focus-visible {
+  outline: 2px solid var(--color-link-hover);
+  outline-offset: 3px;
 }
 
 /* Wide screens */
