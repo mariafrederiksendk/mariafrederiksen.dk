@@ -1,4 +1,4 @@
-# devasgari.dk - Portfolio Website
+# mariafrederiksen.dk - Portfolio Website
 
 My personal portfolio website showcasing projects, skills, and background.
 
@@ -16,4 +16,4 @@ My personal portfolio website showcasing projects, skills, and background.
 
 ## View online
 
-Visit [devasgari.dk](https://devasgari.dk)
+Visit [mariafrederiksen.dk](https://mariafrederiksen.dk)
